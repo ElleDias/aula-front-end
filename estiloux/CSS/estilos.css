@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFEFEF;
+}
+
+header {
+    height: 80px;
+    background-color: #727272;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+
+.layout-grid {
+    width: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+    background-color: rgb(238, 240, 213);
+}
+nav {
+
+    width: 400px;
+    height: 100%;
+    border: 3px solid white;
+}
+.header-flex{
+display: flex;
+justify-content: space-between;
+
+}
