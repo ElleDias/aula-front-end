@@ -18,22 +18,27 @@ h1 {
     font-size: 30px;
     font-weight: 300;
     color: white;
+        /* border: 3px solid white; */
 }
 
 .layout-grid {
     width: 100%;
     max-width: 992px;
+    height: 100%;
     margin: 0 auto;
     background-color: rgb(238, 240, 213);
+    /* border: 3px solid salmon; */
 }
 nav {
-
+display: flex;
+justify-content: space-between;
+align-items: center;
     width: 400px;
     height: 100%;
-    border: 3px solid white;
+    /* border: 3px solid white; */
 }
 .header-flex{
 display: flex;
 justify-content: space-between;
-
+align-items: center;
 }
